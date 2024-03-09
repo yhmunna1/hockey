@@ -40,12 +40,42 @@
     </style>
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope ">
     <!-- Header -->
-    <header>
-        <h1>Hello World</h1>
+    <header class="container mx-auto pt-16">
+        <!-- Slider -->
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Note -->
+        <div class="container mx-auto flex lg:justify-end">
+            <div class=" mt-5 lg:-mt-52 lg:mr-10 gap-4 lg:w-2/4">
+                <div class="drop-shadow-lg bg-gray-950 p-10 rounded-md">
+                    <h3 class=" text-xl lg:text-3xl text-white font-bold pb-3">Meet all the heroes from the field</h3>
+                    <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna
+                        in
+                        sit nullam proin. </p>
+                </div>
+            </div>
+        </div>
+
 
     </header>
+
 
     <!-- Main -->
     <main>
